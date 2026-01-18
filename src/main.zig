@@ -24,6 +24,9 @@ pub const renderer = @import("ui/renderer.zig");
 
 pub const list_widget = @import("ui/widgets/list.zig");
 pub const input_widget = @import("ui/widgets/input.zig");
+pub const table_widget = @import("ui/widgets/table.zig");
+pub const modal_widget = @import("ui/widgets/modal.zig");
+pub const statusbar_widget = @import("ui/widgets/statusbar.zig");
 
 pub const dashboard_component = @import("ui/components/dashboard.zig");
 pub const notifications_component = @import("ui/components/notifications.zig");
@@ -32,6 +35,7 @@ pub const issues_component = @import("ui/components/issues.zig");
 pub const repos_component = @import("ui/components/repos.zig");
 
 pub const cache = @import("infrastructure/storage/cache.zig");
+pub const git_clone = @import("infrastructure/git/clone.zig");
 
 pub const notification_service = @import("domain/services/notification_service.zig");
 pub const pr_service = @import("domain/services/pr_service.zig");
